@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.container-fluid {
+.max-w-full {
   background-color: black;
   padding-left: 0px;
   padding-right: 0px;

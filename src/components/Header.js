@@ -22,7 +22,7 @@ export default function Header2() {
       {({ open }) => (
         <>
             <div className="container mx-auto px-1 sm:px-2 lg:px-6">
-            <div className="relative flex items-center justify-between h-16">
+            <div className="relative flex items-center justify-between h-20">
               <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
@@ -33,15 +33,15 @@ export default function Header2() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex-auto flex lg:justify-between justify-center items-center md:items-stretch md:justify-start">
+              <div className="flex-auto flex lg:justify-between justify-center items-center md:items-stretch md:justify-between">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                            className="block md:hidden h-12 w-auto"
+                            className="block md:hidden h-14 w-auto"
                             src={logo}
                             alt="Aiha"
                         />
                         <img
-                            className="hidden md:block h-12 w-auto"
+                            className="hidden md:block h-14 w-auto"
                             src={logo}
                             alt="Aiha"
                         />
@@ -67,7 +67,7 @@ export default function Header2() {
               </div>
             </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Disclosure.Button

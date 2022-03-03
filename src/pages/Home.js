@@ -12,10 +12,11 @@ import Team from "../components/Team";
 export default function homePage(){
     return(
         <Fragment>
+            <div className="max-w-full">
             <div className="backgroundImg">
             <Header />
             <Banner/>
-            </div>
+            </div>            
             <AboutUs/>
             <Advantage/>
             <Team/>
@@ -23,6 +24,7 @@ export default function homePage(){
             <ContactUs />
             <Advice/>
             <Footer/>
+            </div>
         </Fragment>
     )
 }
