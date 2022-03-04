@@ -19,8 +19,14 @@
     0px 6px 16px rgba(49, 28, 211, 0.388);
 }
 
-/* .advantage {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center !important;
-} */
+.play {
+  top: 40%;
+  left: 45%;
+}
+
+.video:hover {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  transform: scale(1.1);
+}

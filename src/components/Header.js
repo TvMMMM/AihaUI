@@ -21,7 +21,7 @@ export default function Header2() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-            <div className="container mx-auto px-1 sm:px-2 lg:px-6">
+            <div className="container mx-auto px-2 sm:px-2 lg:px-6">
             <div className="relative flex items-center justify-between h-20">
               <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">

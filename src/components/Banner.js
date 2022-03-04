@@ -1,5 +1,7 @@
 import React from "react";
 import video from "../img/img-ytb.png"
+import btnplay from "../img/btnplay.png"
+
 import "../css/Header.css";
 
 export default function Banner() {
@@ -19,24 +21,27 @@ export default function Banner() {
                             </button>
                         </div>
                         </div>
-                        <div className="lg:w-1/2 md:w-auto">
+                        <div className="relative video flex m-auto lg:w-1/2 md:w-auto ">
                             <img
-                                className=" w-fit"
-                                style={{height:"400px"}}
+                                className="rounded-2xl"
+                                style={{width:"768px", height:"450px"}}
                                 src={video}
                                 alt="Banner"
                             />
+                        <div className="absolute play">
+                            <img className="rounded-2xl" src={btnplay} style={{width:"85px", height:"70px"}} alt="Play"/>
+                        </div>
                         </div>
                     </div>
                     <div className='flex flex-wrap mx-auto text-center lg:justify-center md:justify-center sm:justify-center xs:justify-center m-4 py-2 gap-3'>
                         <div className="bg-color p-5 rounded-lg">
-                            <h2 className="md:w-44 sm:w-44 xs:w-52 text-lg text-white font-medium title-font mb-2">Emotion-Based Trading</h2>
+                            <h2 className="md:w-44 sm:w-44 xs:w-52 text-lg text-white font-medium title-font">Emotion-Based Trading</h2>
                         </div>
                         <div className=" bg-color p-5 rounded-lg">
-                            <h2 className="md:w-44 sm:w-44 xs:w-52 text-lg text-white font-medium title-font mb-2">Emotion-Based Trading</h2>
+                            <h2 className="md:w-44 sm:w-44 xs:w-52 text-lg text-white font-medium title-font">Emotion-Based Trading</h2>
                         </div>
                         <div className="bg-color p-5 rounded-lg">
-                            <h2 className="md:w-44 sm:w-44 xs:w-52  text-lg text-white font-medium title-font mb-2">World Economy In Crisis</h2>
+                            <h2 className="md:w-44 sm:w-44 xs:w-52  text-lg text-white font-medium title-font">World Economy In Crisis</h2>
                         </div>
                     </div>
                     </section>
