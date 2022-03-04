@@ -19,9 +19,9 @@ export default function ContactUs(){
                             <label htmlFor="full-name" className="leading-7 text-white">Email</label>
                             <input type="text" id="full-name" name="full-name" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                         </div>
-                        <div className="relative text-left mb-5">
-                            <label htmlFor="email" className="leading-7 text-white">Question or Message</label>
-                            <input type="email" id="email" name="email" className="w-full h-40 bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                        <div className="relative text-left  mb-5">
+                            <label htmlFor="message" className="leading-7 text-white">Question or Message</label>
+                            <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                         </div>
                         <button className="pri-btn text-white mt-2 font-light focus:outline-none hover:shadow-lg text-lg">Send</button>
                     </div>

@@ -13,7 +13,7 @@ export default function Team(){
                     <div className="p-4 lg:w-56 md:w-1/3 ">
                         <div className="h-full flex flex-col items-center text-center">
                         <img alt="team" className="flex-shrink-0 rounded-lg w-40 h-auto object-cover object-center mb-5" src={avt} />
-                        <div className="w-52 bg-color p-4 rounded-lg">
+                        <div className="w-52 bg-color p-4 rounded-xl">
                             <h2 className="leading-relaxed font-thin text-slate-400 mb-1">Daniel Paul</h2>
                             <h3 className="title-font font-medium text-lg text-white">CEO</h3>
                         </div>
@@ -22,7 +22,7 @@ export default function Team(){
                     <div className="p-4 lg:w-56 md:w-1/3">
                         <div className="h-full flex flex-col items-center text-center">
                         <img alt="team" className="flex-shrink-0 rounded-lg w-40 h-auto object-cover object-center mb-5" src={avt} />
-                        <div className="w-52 bg-color p-4 rounded-lg">
+                        <div className="w-52 bg-color p-4 rounded-xl">
                             <h2 className="leading-relaxed font-thin text-slate-400 mb-1">Lorenz Arjay</h2>
                             <h3 className="title-font font-medium text-lg text-white">Software Developer</h3>
                         </div>
@@ -31,7 +31,7 @@ export default function Team(){
                     <div className="p-4 lg:w-56 md:w-1/3">
                         <div className="h-full flex flex-col items-center text-center">
                         <img alt="team" className="flex-shrink-0 rounded-lg w-40 h-auto object-cover object-center mb-5" src={avt} />
-                        <div className="w-52 bg-color p-4 rounded-lg">
+                        <div className="w-52 bg-color p-4 rounded-xl">
                             <h2 className="leading-relaxed font-thin text-slate-400 mb-1">Alex Kurokhin</h2>
                             <h3 className="title-font font-medium text-lg text-white">Software Developer</h3>
                         </div>
@@ -40,7 +40,7 @@ export default function Team(){
                     <div className="p-4 lg:w-56 md:w-1/3">
                         <div className="h-full flex flex-col items-center text-center">
                         <img alt="team" className="flex-shrink-0 rounded-lg w-40 h-auto object-cover object-center mb-5" src={avt} />
-                        <div className="w-52 bg-color p-4 rounded-lg">
+                        <div className="w-52 bg-color p-4 rounded-xl">
                             <h2 className="leading-relaxed font-thin text-slate-400 mb-1">Vincent Le Bartz</h2>
                             <h3 className="title-font font-medium text-lg text-white">Project Manager</h3>
                         </div>
