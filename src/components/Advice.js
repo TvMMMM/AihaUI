@@ -4,7 +4,7 @@ import logo from "../img/logo.png";
 
 export default function Advice() {
   return (
-    <div className="container mx-auto px-2 py-24 sm:px-2 lg:px-6">
+    <div className="container mx-auto px-2 py-12 sm:px-2 lg:px-6">
       <div class="flex justify-center w-full mb-12">
         <img className="block lg:hidden h-auto w-auto" src={logo} alt="Aiha" />
         <img className="hidden lg:block h-auto w-auto" src={logo} alt="Aiha" />

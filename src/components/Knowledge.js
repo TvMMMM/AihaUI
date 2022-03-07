@@ -4,7 +4,7 @@ import card from "../img/img-blog.png";
 
 export default function Knowledge() {
   return (
-    <div className="container mx-auto px-2 py-20 sm:px-2 md:px-1 lg:px-6">
+    <div className="container mx-auto px-2 py-12 sm:px-2 md:px-1 lg:px-6">
       <div class="flex flex-col text-center w-full mb-12">
         <h1 class="sm:text-3xl text-3xl font-medium title-font mb-4 text-white">
           Knowledge Blog

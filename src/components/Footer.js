@@ -9,7 +9,7 @@ import telegram from "../img/tele.png";
 export default function Footer() {
   return (
     <footer className="text-white body-font">
-      <div className="container px-1 sm:px-1 lg:px-1 py-24 mx-auto flex lg:justify-center md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div className="container px-1 sm:px-1 lg:px-1 py-12 mx-auto flex lg:justify-center md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="flex flex-wrap justify-content-evenly lg:px-4 md:px-2 -mb-3 md:mt-0 mt-10 md:text-center sm:text-center">
           <div className="lg:w-1/3 md:w-1/2 w-full px-5 mb-3">
             <div className="flex lg:justify-start justify-center w-full mb-3">

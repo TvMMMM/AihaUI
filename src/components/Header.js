@@ -16,7 +16,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Header2() {
+export default function Header() {
   return (
     <Disclosure as="nav">
       {({ open }) => (

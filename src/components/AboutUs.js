@@ -4,7 +4,7 @@ import certificate from "../img/license.png";
 
 export default function AboutUs() {
   return (
-    <div className="container mx-auto px-2 py-10 sm:px-6 lg:px-6">
+    <div className="container mx-auto px-2 py-12 sm:px-6 lg:px-6">
       <section className="text-white body-font overflow-hidden">
         <div class="flex flex-col text-center w-full mb-12">
           <h1 class="sm:text-3xl text-3xl font-medium title-font mb-4 text-white">
@@ -15,7 +15,7 @@ export default function AboutUs() {
           <div className="mx-auto flex flex-wrap md:justify-between sm:justify-center xs:justify-center">
             <img
               alt="certificate"
-              className="lg:w-72 lg:ml-5 md:w-64 sm:w-60 xs:w-60 lg:h-auto object-cover object-center rounded mb-4"
+              className="video lg:w-80 lg:ml-5 md:w-64 sm:w-60 xs:w-60 lg:h-auto object-cover object-center rounded mb-4"
               src={certificate}
             />
             <div className=" md:w-1/2 grid items-center grid-cols-2 gap-2 px-5 text-left mx-auto">
